@@ -16,7 +16,7 @@ class Chip():
     def blitme(self):
         self.screen.blit(self.image, self.rect)
 
-def run_game():.
+def run_game():
     pygame.init()
     ai_settings = Settings()
     ship = Chip(ai_settings)
